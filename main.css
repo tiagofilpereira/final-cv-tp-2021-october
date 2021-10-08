@@ -1,0 +1,536 @@
+
+
+/*start css*/
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #515050;
+}
+
+h2{
+    font-size: 2.41rem;
+    font-weight: 500;
+    font-style:normal ;
+    color: #333333;
+}
+h3{
+    font-size: 1.56rem;
+    font-weight: 500;
+    font-style:normal ;
+    color: #333333;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*start css*/
+
+/*start navbar*/
+
+nav{
+    
+    background-color: #ffffff;
+    width:100vw;
+    height: 58px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+         
+}
+
+nav img{
+    width:25px ;
+    margin-right: 519px;
+    margin-left: -519px;
+    opacity: 80%;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.navigation li{
+    list-style: none;
+}
+
+.navigation li a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 27,07px;
+    color:#3d3d3d ;
+    
+}
+
+/*end navbar*/
+
+/*hero-section start*/
+
+.hero-section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-name{
+    padding: 198px;
+    
+}
+
+.name{
+    font-size: 48.83px;
+    color: #3c3c3c;
+    display: flex;
+    flex-direction: column;
+}
+
+.filipe{
+    margin-left: 100px;
+}
+
+.pereira{
+    margin-left: 200px;
+}
+
+.btns{
+    display: flex;
+    margin-top: 50px;
+    justify-content: end;
+    
+}
+
+.btns .hero-btn1{
+    background-color: #59AD99;;
+    height: 51.43px;
+    width: 129.97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-right: 28.05px;
+    
+}
+
+.btns .hero-btn1 a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btns .hero-btn2{
+    background-color: #AC7E7E;
+    height: 51.43px;
+    width: 129.97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.btns .hero-btn2 a{
+    text-decoration:none;
+    color:#ffffff;
+    font: size 1rem;
+}
+
+/*end hero-section*/
+
+/*profile-section start*/
+
+.container .perfil-title h2{
+    position: relative;
+    bottom: 250px;
+    width: 100px;
+    left: -100px;
+}
+
+.container .perfil-txt{
+    position: relative;
+    left: -50px;
+}
+
+.perfil-txt p{
+    margin-bottom: 30px;
+}
+
+.container .perfil-ft{
+    display: flex;
+}
+
+.social-btns{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 50px;
+
+}
+
+.social-btns img{
+    position: relative;
+    margin-bottom: 15px;
+    width: 20px;
+    opacity: 85%;
+}
+
+.pessoais{
+    height: 850px;
+    width: 480px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 200px;
+}
+
+.pessoais p{
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.profissionais p{
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+
+.profissionais{
+    height: 850px;
+    width: 480px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    margin-right:-200px ;
+   
+    
+}
+
+.pessoais h3{
+    position: relative;
+    bottom: 100px;
+}
+
+.profissionais h3{
+    position: relative;
+    bottom: 100px;
+}
+
+.linguas{
+    position: relative;
+    left: -300px;
+}
+
+.linguas h3{
+    position: relative;
+    bottom: 100px;
+}
+
+.flex p{
+    position: relative;
+    right:100px ;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    font-style: 
+    italic;
+    font-weight: 300;
+}
+
+.habilities{
+    height: 850px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilities h3{
+    position: relative;
+    bottom: 100px;
+}
+
+.habilities p{
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.habilities{
+    margin-right: -450px;
+}
+
+.experiencia{
+    
+    height: 800px;
+    display: flex;
+    flex-direction:column;
+    
+    justify-content: center;
+ }
+
+.experiencia h3{
+    position: relative;
+    bottom: 150px;
+}
+
+.experiencia-txt{
+    display: flex;
+    width: 1200px;
+}
+
+small{
+    color:#c4c4c4 ;
+}
+
+/*profile-section end*/
+
+/*work-section start*/
+
+.work{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.work h2{
+    position: relative;
+    bottom: 150px;
+}
+
+.work h3{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    color: #59AD99;
+}
+
+.work a{
+    position: relative;
+    text-decoration: none;
+    top: 15px;
+    left: 50px;
+    color: #f1f1f1;
+    background-color:#677AAA;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: normal;
+    
+}
+
+.work p{
+    position: relative;
+    
+    margin-bottom: 50px;
+}
+
+.bottom-social{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-social img{
+    position: relative;
+    top: 200px;
+    padding: 15px;
+    opacity: 85%;
+    width: 20px;
+}
+
+/*work-section end*/
+
+
+/*media querie - mobile device*/
+
+@media (max-width:1400px) {
+    nav img{
+        margin-right: 50px;
+        margin-left: -50px;
+    }
+}
+
+@media (max-width:1400px){
+    h1{
+        font-size: 1.95rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 1.56rem;
+    }
+
+    .container{
+        height: 800px;
+       display: flex;
+       flex-direction: column;
+    }
+
+
+    .navigation li a{
+        
+        padding: 5px;
+    }
+
+
+    .hero-section{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-name{
+        padding:20px ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        margin-top: 350px;
+        height: 250px;
+        justify-self: center;
+        align-self: center;
+        justify-content: center;
+
+    }
+
+    .hero-ft img{
+        position: relative;
+        top: 20px;
+        width: 250px;
+        
+    }
+
+    /*perfil*/
+    
+    .perfil-title{
+        position: relative;
+        top: 385px;
+    }
+
+    .pessoais{
+        right: 0px;
+        top: 200px;
+        width: 400px;
+    }
+
+    .profissionais{
+        position: relative;
+        margin-right:0px ;
+        top: 400px;
+        width: 400px;
+
+    }
+
+    .linguas{
+        left:0px;
+        top: 700px;
+        
+    }
+
+    .linguas img{
+        width: 250px;
+    }
+
+    .habilities{
+        position: relative;
+        top: 900px;
+        margin-right: 0px;
+        width: 400px;
+
+    }
+
+    .experiencia{
+        position: relative;
+        align-items: center;
+        top: 900px;
+    }
+
+
+    .experiencia-txt{
+        display: flex;
+        flex-direction: column;
+        width:400px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .experiencia-txt p{
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .work{
+        position: relative;
+        top: 700px;
+        
+    }
+
+    .bottom-social{
+        position: relative;
+        top: 600px;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+/*end-perfil*/
+
+/*work-section*/
+
+.work a{
+    left: 0;
+}
+
+
+/*work-section end*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
